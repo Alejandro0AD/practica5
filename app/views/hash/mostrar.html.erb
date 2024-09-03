@@ -1,0 +1,11 @@
+<h1>Segundo controlador</h1>
+
+<h3>Hashes</h3>
+<table border="1" cellspacing="0" cellpadding="5">
+  <% @persona.each do |key, value| %>
+    <tr>
+      <td style="background-color: #4CAF50; color: white;"><strong><%= key %></strong></td>
+      <td style="background-color: #FFFFE0;"><%= value %></td>
+    </tr>
+  <% end %>
+</table>
